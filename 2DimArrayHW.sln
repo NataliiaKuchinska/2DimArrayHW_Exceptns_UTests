@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimArray", "HW-6\TwoDimArray.csproj", "{E23A0F29-602C-40B5-A2B2-4FAD269E4DF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9DB059B-30AA-46A9-BD23-57EBD2F06B56} = {C9DB059B-30AA-46A9-BD23-57EBD2F06B56}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimArrayHWLib", "TwoDimArrayHWLib\TwoDimArrayHWLib.csproj", "{C9DB059B-30AA-46A9-BD23-57EBD2F06B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimArray_UnitTests", "TwoDimArrayTest\TwoDimArray_UnitTests.csproj", "{5FE202A7-7C34-4C58-A7DD-22971D13306E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23A0F29-602C-40B5-A2B2-4FAD269E4DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A0F29-602C-40B5-A2B2-4FAD269E4DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A0F29-602C-40B5-A2B2-4FAD269E4DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23A0F29-602C-40B5-A2B2-4FAD269E4DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DB059B-30AA-46A9-BD23-57EBD2F06B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DB059B-30AA-46A9-BD23-57EBD2F06B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DB059B-30AA-46A9-BD23-57EBD2F06B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DB059B-30AA-46A9-BD23-57EBD2F06B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE202A7-7C34-4C58-A7DD-22971D13306E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE202A7-7C34-4C58-A7DD-22971D13306E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE202A7-7C34-4C58-A7DD-22971D13306E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE202A7-7C34-4C58-A7DD-22971D13306E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08458020-C8F8-4431-8A6E-7A39C09D1F95}
+	EndGlobalSection
+EndGlobal
